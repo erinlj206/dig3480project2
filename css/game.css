@@ -1,0 +1,21 @@
+.background    { background: #607089;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.bat          { background-image: url("https://78.media.tumblr.com/655d68c1aa39b1655bb0e9d3618b49fc/tumblr_p6qn2rmp421rcrl37o3_r1_75sq.png"); }
+.wall          { background: #44602e;   }
+
+.actor  { position: absolute;  }
+.candy   { background-image: url("https://78.media.tumblr.com/8c67b17c3e3e389833f772a671e3031f/tumblr_p6qn2rmp421rcrl37o1_75sq.png"); }
+.player { background-image: url("https://78.media.tumblr.com/c12ec52e34135b24ed3b35ea56112c6a/tumblr_p6qn2rmp421rcrl37o2_75sq.png"); }
+.basket { background-image: url("https://78.media.tumblr.com/fbdf9757a0acd837ab0cda60ad495c04/tumblr_p6qn2rmp421rcrl37o4_r1_75sq.png"); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 400px;
+  position: relative;
+}
+
+.lost .player { background-image: url("https://78.media.tumblr.com/f789e10031a37f5003c3086d3dff4dc6/tumblr_p6qn2rmp421rcrl37o5_r1_75sq.png"); }
+.won .player { background-image: url("https://78.media.tumblr.com/5024587a94a540023ab95d9e94975cad/tumblr_p6qn2rmp421rcrl37o6_r1_75sq.png"); }
